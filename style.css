@@ -1,0 +1,108 @@
+body {
+  background-color: #EBEBEB;
+  font-family: 'Open Sans', sans-serif;
+  color: #7d7d7d;
+  font-size: 15px;
+  line-height: 2em;
+}
+
+.container {
+  width: 500px;
+  margin: 30px auto;
+}
+
+.card {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+  border: 2px solid #CCCCCC;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.btn-green {
+  background-color: #3F7B70;
+  color: white;
+  font-weight: 500px;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.btn-green:hover {
+  background-color: #26a890;
+  color: #f9fcfb;
+}
+
+.movies img {
+  width: 90px;
+}
+
+.movies {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+  color: #3F7B70;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: #CCCCCC;
+}
+
+a:hover {
+  color: #3F7B70;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
