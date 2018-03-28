@@ -7,6 +7,19 @@ body {
   line-height: 2em;
 }
 
+#sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #616161;
+  width: 120px;
+}
+
+#page-content {
+  margin-left: 250px;
+}
+
 .container {
   width: 500px;
   margin: 30px auto;
@@ -27,6 +40,16 @@ body {
 .img-circle {
   border-radius: 50%;
   border: 2px solid #CCCCCC;
+}
+
+.sidebar-list {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.sidebar-spacing {
+  padding-top: 50px;
+  padding bottom: 25px;
 }
 
 .list-inline > li {
