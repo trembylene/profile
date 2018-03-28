@@ -84,6 +84,10 @@ body {
   line-height: 1.6em;
 }
 
+element.style {
+  cursor: pointer;
+}
+
 h1, h2, h3 {
   font-family: 'Raleway', sans-serif;
 }
@@ -137,6 +141,7 @@ a:hover {
   margin: 0;
   padding: 0;
 }
+
 :root {
   font-size: 16px;
 }
@@ -147,7 +152,7 @@ input {
 }
 
 main {
-  padding: 6em 1.5em 0 1.5em;
+  padding: 2em 1.5em 0 1.5em;
   text-align: center;
 }
 
